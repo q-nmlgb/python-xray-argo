@@ -154,12 +154,12 @@ def get_files_for_architecture(architecture):
     if architecture == 'arm':
         base_files = [
             {"fileName": "web", "fileUrl": "https://github.com/yonggekkk/argosbx/releases/download/argosbx/sing-box-arm64"},
-            {"fileName": "bot", "fileUrl": "https://arm64.ssss.nyc.mn/2go"}
+            {"fileName": "bot", "fileUrl": "https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm64"}
         ]
     else:
         base_files = [
-            {"fileName": "web", "fileUrl": "https://amd64.ssss.nyc.mn/web"},
-            {"fileName": "bot", "fileUrl": "https://amd64.ssss.nyc.mn/2go"}
+            {"fileName": "web", "fileUrl": "https://github.com/yonggekkk/argosbx/releases/download/argosbx/sing-box-amd64"},
+            {"fileName": "bot", "fileUrl": "https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64"}
         ]
 
     if NEZHA_SERVER and NEZHA_KEY:
